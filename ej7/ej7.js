@@ -6,5 +6,9 @@ let boxCreated = false;
 btnCreate.addEventListener("click", () => {
     if (!boxCreated) {
         const box = document.createElement("div");
+        box.className = "box";
+        frame.appendChild(box);
+        boxCreated = true;
+        btnCreate.disabled = true;
     }
 })
