@@ -5,6 +5,6 @@ btnToggle.addEventListener("click", () => {
     if (text.style.display === "block") {
         text.style.display = "none";
     } else {
-        
+        text.style.display = "block";
     }
 })
